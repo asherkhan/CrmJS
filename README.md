@@ -191,6 +191,7 @@ Retrieves the current form type.
 See [CRM Form Types](https://msdn.microsoft.com/en-us/library/gg327828.aspx#BKMK_getFormType)
 
 **Return Values**<br /><br />
+
 | Type | Description |
 | ------ | ------ |
 | String | Returns the form type in the form a string |
@@ -212,6 +213,7 @@ Gets the value of a form field
 | attributeName | Mandatory | The schema name of the form field. |
 
 **Return Values**<br /><br />
+
 | Type | Description |
 | ------ | ------ |
 | Varied | Based on the type of form field. |
@@ -257,7 +259,8 @@ crmJs.form.setLookup(
 ### Get GUID of Current Record
 Gets the guid of the current record.
 
-**Return Values**<br />
+**Return Values**<br /><br />
+
 | Type | Description |
 | ------ | ------ |
 | String | The guid of the current record. |
