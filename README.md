@@ -65,7 +65,7 @@ You can make GET requests to the Web API without needing the full url.
 | callback | Mandatory (without jQuery Promises) | A function to capture the result of the request. |
 | error | Optional | A function to capture a failed request. |
 
-**jQuery Promises**
+**jQuery Promises**<br /><br />
 If jQuery is loaded on the page and you do not provide a callback, a jQuery promise will be returned.
 ```
 crmJs.api.get('accounts').then(function (result) {
@@ -73,7 +73,7 @@ crmJs.api.get('accounts').then(function (result) {
 });
 ```
 
-**jQuery Ajax**
+**jQuery Ajax**<br /><br />
 If jQuery is loaded on the page and a callback function is passed in as the second parameter, a traditional jQuery Ajax call will be triggered.
 ```
 crmJs.api.get('accounts', function (result) {
@@ -88,7 +88,7 @@ crmJs.api.get('accounts', function (result) {
 	console.log('error')
 });
 ```
-**Without jQuery**
+**Without jQuery**<br /><br />
 If jQuery is not loaded on the page, a XMLHttpRequest will be called, with the second parameter callback function becoming mandatory.
 ```
 crmJs.api.get('accounts', function (result) {
@@ -108,14 +108,14 @@ You can make POST requests to the Web API without needing the full url.
 | callback | Mandatory (without jQuery Promises) | A function to capture the result of the request. |
 | error | Optional | A function to capture a failed request. |
 
-**jQuery Promises**
+**jQuery Promises**<br /><br />
 If jQuery is loaded on the page and you do not provide a callback, a jQuery promise will be returned.
 ```
 crmJs.api.post('accounts', data).then(function (result) {
 	console.log(result);
 });
 ```
-**jQuery Ajax**
+**jQuery Ajax**<br /><br />
 If jQuery is loaded on the page and a callback function is passed in as the second parameter, a traditional jQuery Ajax call will be triggered.
 ```
 crmJs.api.get('accounts', data, function (result) {
@@ -130,7 +130,7 @@ crmJs.api.get('accounts', data, function (result) {
 	console.log('error')
 });
 ```
-**Without jQuery**
+**Without jQuery**<br /><br />
 If jQuery is not loaded on the page, a XMLHttpRequest will be called, with the second parameter callback function becoming mandatory.
 ```
 crmJs.api.get('accounts', data, function (result) {
@@ -190,7 +190,7 @@ Using the form object, you can interact with your CRM forms and customise field 
 Retrieves the current form type.
 See [CRM Form Types](https://msdn.microsoft.com/en-us/library/gg327828.aspx#BKMK_getFormType)
 
-**Return Values**
+**Return Values**<br /><br />
 | Type | Description |
 | ------ | ------ |
 | String | Returns the form type in the form a string |
@@ -211,7 +211,7 @@ Gets the value of a form field
 | ------ | ------ | ------ |
 | attributeName | Mandatory | The schema name of the form field. |
 
-**Return Values**
+**Return Values**<br /><br />
 | Type | Description |
 | ------ | ------ |
 | Varied | Based on the type of form field. |
@@ -257,7 +257,7 @@ crmJs.form.setLookup(
 ### Get GUID of Current Record
 Gets the guid of the current record.
 
-**Return Values**
+**Return Values**<br />
 | Type | Description |
 | ------ | ------ |
 | String | The guid of the current record. |
