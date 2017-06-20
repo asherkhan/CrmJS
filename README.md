@@ -18,31 +18,31 @@ Compatibility: Microsoft Dynamics 2016/365 (On-Premise/Online)
 
 # Documentation
 
-1. [Changing the CRM Web API version](#changing-the-crm-web-api-version)
-2. [API](#api)
-    2.1 [GET](#get)
-    2.2 [POST](#post)
-    2.3 [PUT](#put)
-    2.4 [Workflows](#workflows)
-    2.5 [Actions](#actions)
-3. [Form](#form)
-    3.1 [Get Type](#get-type)
-    3.2 [Get Value](#get-value)
-    3.3 [Set Value](#set-value)
-    3.4 [Set Lookup Value](#set-lookup-value)
-    3.5 [Get GUID of Current Record](#get-guid-of-current-record)
-    3.6 [Make Field Mandatory](#make-field-mandatory)
-    3.7 [Make Field Optional](#make-field-optional)
-    3.8 [Show Field](#show-field)
-    3.9 [Hide Field](#hide-field)
-    3.10 [Show Tab](#show-tab)
-    3.11 [Hide Tab](#hide-tab)
-    3.12 [Show Section](#show-section)
-    3.13 [Hide Section](#hide-section)
-    3.14 [Make Field Read-Only](#make-field-read-only)
-    3.15 [Make Field Editable](#make-field-editable)
-    3.16 [Add Field Error](#add-field-error)
-    3.17 [Clear Field Error](#clear-field-error)
+1. [Changing the CRM Web API version](#changing-the-crm-web-api-version)<br />
+2. [API](#api)<br />
+    2.1 [GET](#get)<br />
+    2.2 [POST](#post)<br />
+    2.3 [PUT](#put)<br />
+    2.4 [Workflows](#workflows)<br />
+    2.5 [Actions](#actions)<br />
+3. [Form](#form)<br />
+    3.1 [Get Type](#get-type)<br />
+    3.2 [Get Value](#get-value)<br />
+    3.3 [Set Value](#set-value)<br />
+    3.4 [Set Lookup Value](#set-lookup-value)<br />
+    3.5 [Get GUID of Current Record](#get-guid-of-current-record)<br />
+    3.6 [Make Field Mandatory](#make-field-mandatory)<br />
+    3.7 [Make Field Optional](#make-field-optional)<br />
+    3.8 [Show Field](#show-field)<br />
+    3.9 [Hide Field](#hide-field)<br />
+    3.10 [Show Tab](#show-tab)<br />
+    3.11 [Hide Tab](#hide-tab)<br />
+    3.12 [Show Section](#show-section)<br />
+    3.13 [Hide Section](#hide-section)<br />
+    3.14 [Make Field Read-Only](#make-field-read-only)<br />
+    3.15 [Make Field Editable](#make-field-editable)<br />
+    3.16 [Add Field Error](#add-field-error)<br />
+    3.17 [Clear Field Error](#clear-field-error)<br />
 
 ### Changing the CRM Web API version
 The api version can be updated using the crmJsConfig object. The default version is 8.1.
