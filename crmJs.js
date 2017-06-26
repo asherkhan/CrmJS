@@ -185,7 +185,7 @@ var crmJs = {
                 }
                 var data = { 'EntityId': id };
                 var url = crmJs.api.context.clientUrl
-                    + '/api/data/v8.1/workflows(' + workflowId + ')/Microsoft.Dynamics.CRM.ExecuteWorkflow';
+                    + '/api/data/v' + crmJsConfig.apiVersion + '/workflows(' + workflowId + ')/Microsoft.Dynamics.CRM.ExecuteWorkflow';
                 req.open('POST', url, false);
                 req.setRequestHeader("Accept", "application/json");
                 req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
