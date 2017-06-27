@@ -1,6 +1,6 @@
 # CrmJS
 
-CrmJS is a tiny JavaScript library to help reduce the complexities of interacting with the Web API and forms and make code more readable by hiding away all the long Xrm functions.
+CrmJS is a tiny JavaScript library for Microsoft Dynamics CRM to help reduce the complexities of interacting with the Web API and forms and make code more readable.
 
 This library will enable you to focus on what you are trying to do and not obfuscate your code with Microsoft Dynamics CRM XRM calls.
 
