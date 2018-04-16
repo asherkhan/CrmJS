@@ -278,7 +278,7 @@ var crmJs = {
                 case 11: type = 'Read Optimized'; break;
                 default: console.error('No valid form type returned'); break;
             }
-            return formType == '' ? null : formType;            
+            return type == '' ? null : type;            
         },
         getValue: function (attributeName) {
             var field = Xrm.Page.getAttribute(attributeName);
